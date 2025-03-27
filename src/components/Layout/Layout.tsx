@@ -80,7 +80,7 @@ export const Layout = () => {
         </header>
         
         <div className={`absolute top-0 left-0 w-full h-full mt-[58px] duration-700 ease-in-out ${active ? "translate-x-0" : "-translate-x-full"}`}>
-            <nav className=" bg-amber-700 w-full h-full container flex flex-col gap-5 text-lg font-semibold action:text-purple-900 py-5 px-5">
+            <nav className=" bg-gray-800 w-full h-full container flex flex-col gap-5 text-lg font-semibold action:text-purple-900 py-5 px-5">
                 <NavLink to="/schedule" className="hover:text-purple-500 ease-in duration-300">Расписание</NavLink>
                 <NavLink to="/releases" className="hover:text-purple-500 ease-in duration-300">Релизы</NavLink>
                 <NavLink to="/setting" className="hover:text-purple-500 ease-in duration-300">Настройки</NavLink>
