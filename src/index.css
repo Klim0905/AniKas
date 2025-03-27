@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+body,
+html,
+#root {
+  background: #1f2937;
+  color: white;
+}
+
+.ant-btn-default,
+.ant-btn-primary{
+  display: none;
+}
+.ant-modal{
+  background: #1f2937;
+  color: white;
+}
+
+.ant-modal .ant-modal-header{
+  background: #1f2937;
+  color: white;
+}
+.ant-modal .ant-modal-content{
+  background: #1f2937;
+  color: white;
+}
+.ant-modal .ant-modal-title, .ant-modal .ant-modal-close, .ant-modal .ant-modal-close:hover {
+  color: white;
+}
